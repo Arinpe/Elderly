@@ -19,6 +19,14 @@ ul {
     width: 100%;
 }
 
+.pt-80 {
+    padding-top: 80px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .h-100 {
     height: 100%;
 }
@@ -41,6 +49,14 @@ ul {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-purple {
+    color: #9052AD;
 }
 
 .container {
@@ -86,7 +102,35 @@ a {
 
 .banner {
     position: relative;
-    height: 100vh;
+    height: 80vh;
+}
+
+.services {
+    width: 70%;
+    margin: auto;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.services-section {
+  background: #9052AD;
+  padding: 80px 0;
+}
+
+.services-text {
+    width: 100%;
+    max-width: 460px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-85%, -50%);
+    height: 601px;
+    padding: 4%;
+}
+
+.bg-white {
+    background: #fff;
 }
 
 .banner .contents {
@@ -129,47 +173,52 @@ a {
     font-size: 25px;
 }
 
+.pl-30 {
+    padding-left: 30px;
+}
+
+.list-item {
+    padding: 10px 0;
+}
+
 .section {
-    height: 110vh;
-    padding: 5rem 0;
-}
-
-/*----------------ABOUT US
--------------------------------------------------------*/
-.aboutus>.container
-{
-    padding:60px 0px;
-  
-}
-
-
-
- .about-box {
-	overflow: hidden;
-	clear: both;
-	margin-bottom: 30px;
-}
-.about-box i {
-	font-size: 36px;
-}
-.about-box .about-line {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-.about-box h4
-{
-    padding-top:10px;
-}
-.about-box p{
-	font-size:0.93em;
-        padding-top:10px;
+    --bg-overlay-color: transparent;
+    --padding: 0px;
+    --margin: 0px;
+    min-width: 980px;
+    --firstChildMarginTop: -1px;
+    --lastChildMarginBottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 980px;
 }
 
 .about-container {
-    width: 80%;
+    width: calc(100% - 160px);
     margin: auto;
-    padding: 4.5rem 0;
     height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-img {
+    height: 700px;
+}
+
+.about-text {
+    max-width: 500px;
+    margin: auto;
+}
+
+.section-header {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 2rem;
+}
+
+.purple-bg {
+  background: #361E47;
 }
 
 
@@ -237,6 +286,14 @@ a {
 }
 
 .social li a:hover {
-
   background:#000;
+}
+
+.faq {
+    background: #F4F1F5;
+}
+
+.faq-heading {
+    background: #fff;
+    padding: 10rem 0;
 }
