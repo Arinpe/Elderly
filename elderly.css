@@ -3,6 +3,11 @@
     margin: 0;
     outline: none ;  
     box-sizing: border-box;
+    font-family: Lexend , sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 img {
@@ -59,6 +64,22 @@ ul {
     color: #9052AD;
 }
 
+.text-green {
+    color: #1f7b76;
+}
+
+.text-cream {
+    color: #f7f5ec;
+}
+
+.green-bg {
+    background-color: #1f7b76;
+}
+
+.lexend {
+    font-family: Lexend;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -84,7 +105,7 @@ header {
 .nav-link a,
 .social-link a {
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -94,6 +115,7 @@ a {
 
 .socials {
     width: 50px;
+    margin-left: 10px;
 }
 
 .social-link {
@@ -110,11 +132,11 @@ a {
     margin: auto;
     justify-content: flex-end;
     position: relative;
-    max-width: 753px;
+    max-width: 820px;
 }
 
 .services-section {
-  background: #9052AD;
+  background: #f7f5ec;
   padding: 80px 0;
 }
 
@@ -123,10 +145,10 @@ a {
     max-width: 460px;
     background: #fff;
     position: absolute;
-    left: -200px;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
-    height: 601px;
+    transform: translate(-120%, -50%);
+    height: 650px;
     padding: 4%;
 }
 
@@ -321,4 +343,8 @@ a {
 .faq-heading {
     background: #fff;
     padding: 10rem 0;
+}
+
+.services-image {
+    max-height: 800px;
 }

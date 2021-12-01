@@ -4,7 +4,9 @@
         <link rel="stylesheet" href="./elderly.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link href="http://fonts.cdnfonts.com/css/brandon-grotesque-regular" rel="stylesheet">
-                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700&display=swap" rel="stylesheet">        
     </head>
      <body>
          <header>
@@ -15,19 +17,22 @@
                  <div class="flex">
                     <ul class="flex justify-center align-center nav-links">
                         <li class="nav-link">
-                            <a href="#!">Home</a>
+                            <a href="#banner">Home</a>
                         </li>
                         <li class="nav-link">
-                            <a href="#!">About us</a>
+                            <a href="#about">About us</a>
                         </li>
                         <li class="nav-link">
-                            <a href="#!">FAQ</a>
+                          <a href="#services">Services</a>
+                       </li>
+                        <li class="nav-link">
+                            <a href="#faq">FAQ</a>
                         </li>
                         <li class="nav-link">
-                            <a href="#!">Let's talk</a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=0802323232323">Let's talk</a>
                         </li>                     
                     </ul>
-                    <ul class="flex align-center justify-center socials">
+                    <ul class="flex align-center justify-between socials">
                         <li class="social-link">
                             <a href="#!">
                                 <i class="fab fa-instagram"></i>
@@ -45,14 +50,14 @@
         <main>
 
           <!-- home -->
-            <div class="banner">
+            <div id="banner" class="banner">
                 <div class="bg-image h-100">
-                    <img class="h-100 w-100" src="assets/images/banner.webp" alt="banner">
+                    <img class="h-100 w-100" src="assets/images/banner.jpg" alt="banner">
                 </div>
                 <div class="overlay"></div>
                 <div class="contents w-100">
-                    <h1 class="headline">Bringing you your desired peace in your home</h1>
-                    <button class="get-started-btn" type="button">Get started</button>
+                    <h1 class="headline lexend">Bringing you your desired peace in your home</h1>
+                    <!-- <button class="get-started-btn" type="button">Get started</button> -->
                 </div>
             </div>
 
@@ -62,34 +67,34 @@
     <div class="body2">
         <!-- horizontal -->
         <div class="section about-wrapper">
-        <div class="flex about-container">
+        <div  id="about" class="flex about-container">
           <div class="flex-1 about-img">
-            <img src="assets/images/about.webp" alt="About Us">
+            <img src="assets/images/caregiver.jpg" alt="About Us">
           </div>
-          <div class="flex-1 purple-bg flex">
+          <div class="flex-1 green-bg flex">
             <div class="about-text">
-              <h4 class="section-header text-white">About Us</h4>
+              <h4 class="section-header text-cream lexend">About Us</h4>
               <div class="flip">
               <div class="front">
-                <p class="text-shadow text-white">Our residential and nursing home is located in Ibadan. It is a standard and well-coordinated homely and domestic care service provider that offers short and long term therapeutic, efficient, comforting healthcare services to ageing individuals in an organized manner. Our service support you to bringing your seniors comfort in their homes. </p>
+                <p class="text-shadow text-cream">Our residential and nursing home is located in Ibadan. It is a standard and well-coordinated homely and domestic care service provider that offers short and long term therapeutic, efficient, comforting healthcare services to ageing individuals in an organized manner. Our service support you to bringing your seniors comfort in their homes. </p>
               </div>
               <div class="back">
                 <h2><br></h2>
                 <p>
-                    <h2 class="text-white">Mission Statement</h2>
+                    <h2 class="text-cream lexend">Mission Statement</h2>
                   <ul>
-                    <li class="text-white">Our mission is to provide a specialised and efficient domiciliary care to your loved ones by offering curative and rehabilitative services to them in the comfort of their homes</li>
+                    <li class="text-cream">Our mission is to provide a specialised and efficient domiciliary care to your loved ones by offering curative and rehabilitative services to them in the comfort of their homes</li>
                   </ul>
                 </p>
               </div>
-              <h2 class="text-shadow text-white">Vision Statement</h2>
+              <h2 class="text-shadow text-cream lexend">Vision Statement</h2>
               </div>
               <div class="back">
                 <h2><br></h2>
                 <p>
                   <ul>
                     <!-- <li>Fresh with new ideas</li> -->
-                    <li class="text-white">To be one of the best home care services in Nigeria by bringing warmth and happiness to our senior residents.</li>
+                    <li class="text-cream">To be one of the best home care services in Nigeria by bringing warmth and happiness to our senior residents.</li>
                   </ul>
                 </p>
               </div>
@@ -98,71 +103,69 @@
         </div>
         
         
-        <div class="flip services-section">
+        <div  id="services" class="flip services-section">
           <div class="flex services">
             <div class="back services-text">
-              <h2 class="section-header text-purple">Services Offered</h2>
+              <h2 class="section-header text-green lexend">Services Offered</h2>
               <p>
                 <ul>
                   <li>
                     <ul class="pl-30">
-                      <li class="text-purple list-item">Personal care </li>
-                      <li class="text-purple list-item">Domestic support</li>
-                      <li class="text-purple list-item">Outing and medical appointments </li>
-                      <li class="text-purple list-item">Providing companionship </li>
-                      <li class="text-purple list-item">Money management</li>
-                      <li class="text-purple list-item">Culturally appropriate</li>
-                      <li class="text-purple list-item">Well experienced care givers</li>
-                      <li class="text-purple list-item">Reduce inappropriate and unnecessary hospitalization</li>
-                      <li class="text-purple list-item">The home care has well trained and polite caregivers</li>
-                      <li class="text-purple list-item">The home care is affordable and available at every price point</li>
+                      <li class="text-green list-item">Personal care </li>
+                      <li class="text-green list-item">Domestic support</li>
+                      <li class="text-green list-item">Outing and medical appointments </li>
+                      <li class="text-green list-item">Providing companionship </li>
+                      <li class="text-green list-item">Money management</li>
+                      <li class="text-green list-item">Culturally appropriate</li>
+                      <li class="text-green list-item">Well experienced care givers</li>
+                      <li class="text-green list-item">Reduce inappropriate and unnecessary hospitalization</li>
+                      <li class="text-green list-item">The home care has well trained and polite caregivers</li>
+                      <li class="text-green list-item">The home care is affordable and available at every price point</li>
                     </ul>
                   </li>
                 </ul>
               </p>
             </div>
             <div class="front">
-              <img src="assets/images/optics.webp" alt="Optics">
+              <img class="services-image" src="assets/images/us.jpg" alt="Optics">
             </div>
           </div>
         </div>
   
-        <br>
-        <br>
-        <div class="section about-wrapper purple-bg">
+        <div  id="choose-us" class="section about-wrapper">
           <div class="flex about-container pt-80">
             <div class="flex-1 about-img">
-              <img src="assets/images/about.webp" alt="About Us">
+              <img src="assets/images/whyus.jpg" alt="About Us">
             </div>
             <div class="flex-1 flex w-100">
-              <div class="bg-white w-100">
+              <div class="w-100 green-bg">
                 <div class="choose-us-text">
-                <h2 class="text-purple">Why you should choose us </h2>
+                <h2 class="text-cream lexend">Why you should choose us </h2>
                 <div class="flip">
                 <div class="front">
                   <ul>
-                    <li class="list-item text-purple">Culturally appropriate </li>
-                    <li class="list-item text-purple">Well experienced care givers </li>
-                    <li class="list-item text-purple">Reduce inappropriate and unnecessary hospitalization </li>
+                    <li class="list-item text-cream">Culturally appropriate </li>
+                    <li class="list-item text-cream">Well experienced care givers </li>
+                    <li class="list-item text-cream">Reduce inappropriate and unnecessary hospitalization </li>
                   </ul>
                 </div>
                 <div class="back">
                   <h2><br></h2>
                   <p>
-                      <h2 class="text-white">Mission Statement</h2>
+                      <h2 class="text-cream lexend">Mission Statement</h2>
                     <ul>
-                      <li class="text-white">Our mission is to provide a specialised and efficient domiciliary care to your loved ones by offering curative and rehabilitative services to them in the comfort of their homes</li>
+                      <li class="text-cream">Our mission is to provide a specialised and efficient domiciliary care to your loved ones by offering curative and rehabilitative services to them in the comfort of their homes</li>
                     </ul>
                   </p>
                 </div>
-                <h2 class="text-shadow text-purple">How the home care is different?</h2>
+                <h2 class="text-shadow text-cream">How the home care is different?</h2>
                 </div>
                 <div class="back">
                   <h2><br></h2>
                   <p>
                     <ul>
-                      <li class="list-item text-purple">The home care has well trained and polite caregivers </li>
-                      <li class="list-item text-purple"> The home care is affordable and available at every price point </li>
+                      <li class="list-item text-cream">The home care has well trained and polite caregivers </li>
+                      <li class="list-item text-cream"> The home care is affordable and available at every price point </li>
                     </ul>
                   </p>
                 </div>
@@ -174,9 +177,9 @@
   
         <!-- vertical -->
 
-        <div class="faq">
+        <div  id="faq" class="faq">
           <div class="faq-heading bg-white">
-            <h1 class="text-purple w-100 text-center">FREQUENTLY ASKED QUESTIONS</h1>
+            <h1 class="text-green w-100 text-center lexend">FREQUENTLY ASKED QUESTIONS</h1>
           </div>
 
           <div class="back">
@@ -185,7 +188,7 @@
         </div>
       </div>
       <div class="widget">
-        <div  class="kMF93"><a target="_blank" href="https://api.whatsapp.com/send?phone=0802323232323" class="widget-btn" style="color: rgb(255, 255, 255); background-color: rgb(142, 68, 173); border-radius: 8px;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" style="border-radius: 0px; fill: rgb(255, 255, 255); width: 26px; height: 26px; flex-shrink: 0;"><path d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0 010-2.318h9.016a1.16 1.16 0 110 2.318z" fill="currentColor" fill-rule="nonzero"></path></svg><h2 data-hook="text" class="Sx0v4" style="font-family: brandon-grot-w01-light, HelveticaNeueW01-45Ligh;">Let's Chat!</h2></a></div>
+        <div  class="kMF93"><a target="_blank" href="https://api.whatsapp.com/send?phone=0802323232323" class="widget-btn" style="color:#f7f5ec; background-color:#1f7b76; border-radius: 8px;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" style="border-radius: 0px; fill:#f7f5ec; width: 26px; height: 26px; flex-shrink: 0;"><path d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0 010-2.318h9.016a1.16 1.16 0 110 2.318z" fill="currentColor" fill-rule="nonzero"></path></svg><h2 data-hook="text" class="Sx0v4" style="font-family: brandon-grot-w01-light, HelveticaNeueW01-45Light;">Let's Chat!</h2></a></div>
       </div>
         </main>
           <!-- [FOOTER]
