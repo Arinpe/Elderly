@@ -186,7 +186,6 @@ a {
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: 100;
-    font-family: 'Brandon Grotesque Regular', sans-serif;
     margin-bottom: 1.2rem;
 }
 
@@ -347,4 +346,12 @@ a {
 
 .services-image {
     max-height: 800px;
+}
+
+.l-30 {
+    line-height: 30px;
+}
+
+.mission {
+    line-height: 35px;
 }
